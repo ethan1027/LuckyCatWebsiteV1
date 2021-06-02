@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import HeaderTab from './header-tab';
+import styled from 'styled-components'; 
 
 export default function Header() {
   const [openNav, setOpenNav] = useState(false);
@@ -21,10 +22,10 @@ export default function Header() {
             </button>
           </div>
           <nav className="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
-            <a className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-yellow-100 focus:bg-yellow-100 focus:outline-none focus:shadow-outline" href="#">What's LuckyCat</a>
-            <a className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-yellow-100 focus:bg-yellow-100 focus:outline-none focus:shadow-outline" href="#">Why LuckyCat</a>
-            <a className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-yellow-100 focus:bg-yellow-100 focus:outline-none focus:shadow-outline" href="#">Roadmap</a>
-            <a className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-yellow-100 focus:bg-yellow-100 focus:outline-none focus:shadow-outline" href="#">Contact</a>
+            <HeaderButton href="#">What's LuckyCat</HeaderButton>
+            <HeaderButton href="#">Why LuckyCat</HeaderButton>
+            <HeaderButton href="#">Roadmap</HeaderButton>
+            <HeaderButton href="#">Contact</HeaderButton>
             <div className="relative" x-data="{ open: true }">
               <button onClick={onClick} className="flex flex-row text-gray-900 bg-gray-200 items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:w-auto md:inline md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-yellow-200 focus:bg-yellow-200 focus:outline-none focus:shadow-outline">
                 <span>More</span>
@@ -39,3 +40,30 @@ export default function Header() {
   </div>
   )
 }
+
+
+const HeaderButton = styled.a.attrs({
+  className: `
+  px-4
+  py-2
+  mt-2
+  text-sm
+  font-semibold
+  bg-transparent
+  rounded-lg
+  dark-mode:bg-transparent
+  dark-mode:hover:bg-gray-600
+  dark-mode:focus:bg-gray-600
+  dark-mode:focus:text-white
+  dark-mode:hover:text-white
+  dark-mode:text-gray-200
+  md:mt-0
+  md:ml-4
+  hover:text-gray-900
+  focus:text-gray-900
+  hover:bg-yellow-100
+  focus:bg-yellow-100
+  focus:outline-none
+  focus:shadow-outline
+  `
+})``

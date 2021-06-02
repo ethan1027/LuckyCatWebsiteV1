@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../components/header';
-import Intro from '../components/intro';
 import Roadmap from '../components/roadmap';
 
 export default function App() {
