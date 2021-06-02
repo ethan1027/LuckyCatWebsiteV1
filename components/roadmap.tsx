@@ -22,7 +22,7 @@ export default function Roadmap() {
               <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                 <div className="order-1 w-5/12"></div>
                 <div className="order-1 w-5/12 px-1 py-4 text-right">
-                  <h4 className="mb-3 font-bold text-lg md:text-2xl">Q2, 2021</h4>
+                  <h4 className="mb-3 font-bold text-lg md:text-2xl">Q2 2021</h4>
                   <p className="text-sm md:text-base leading-snug">
                     Pick your favourite event(s) and register in that event by filling the form corresponding to that
                     event. Its that easy :)
@@ -32,7 +32,7 @@ export default function Roadmap() {
               <div className="mb-8 flex justify-between items-center w-full right-timeline">
                 <div className="order-1 w-5/12"></div>
                 <div className="order-1  w-5/12 px-1 py-4 text-left">
-                  <h4 className="mb-3 font-bold text-lg md:text-2xl">Q3, 2021</h4>
+                  <h4 className="mb-3 font-bold text-lg md:text-2xl">Q3 2021</h4>
                   <p className="text-sm md:text-base leading-snug">
                     Participate online. The links for your registered events will be sent to you via email and whatsapp
                     groups. Use those links and show your talent.
@@ -42,7 +42,7 @@ export default function Roadmap() {
               <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                 <div className="order-1 w-5/12"></div>
                 <div className="order-1 w-5/12 px-1 py-4 text-right">
-                  <h4 className="mb-3 font-bold text-lg md:text-2xl">Q4, 2021</h4>
+                  <h4 className="mb-3 font-bold text-lg md:text-2xl">Q4 2021</h4>
                   <p className="text-sm md:text-base leading-snug">
                     The ultimate genius will be revealed by our judging panel on 10th May, 2021 and the resukts will be
                     announced on the whatsapp groups and will be mailed to you.
@@ -54,7 +54,7 @@ export default function Roadmap() {
                 <div className="order-1 w-5/12"></div>
 
                 <div className="order-1  w-5/12 px-1 py-4">
-                  <h4 className="mb-3 font-bold  text-lg md:text-2xl text-left">Q1, 2022</h4>
+                  <h4 className="mb-3 font-bold  text-lg md:text-2xl text-left">Q1 2022</h4>
                   <p className="text-sm md:text-base leading-snug">
                     The winners will be contacted by our team for their addresses and the winning goodies will be sent at
                     their addresses.
