@@ -12,6 +12,7 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
+      white:colors.white,
       gray: colors.coolGray,
       blue: colors.lightBlue,
       red: colors.rose,
@@ -20,7 +21,8 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif']
+      serif: ['Merriweather', 'serif'],
+      nuni: ['Nunito']
     },
     extend: {
       spacing: {
