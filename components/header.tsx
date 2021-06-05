@@ -47,7 +47,6 @@ const HeaderButton = styled.a.attrs({
   px-4
   py-2
   mt-2
-  text-sm
   font-semibold
   bg-transparent
   rounded-lg
