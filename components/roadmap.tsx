@@ -1,12 +1,9 @@
-import Intro from './intro'
-
 export default function Roadmap() {
   const borderStyle ={'left': '50%', 'border': '2px solid', 'border-radius': '1%'}
   return (
     <section>
       <div className="container mx-auto flex flex-col items-start md:flex-row md:my-24">
         <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
-          <Intro/>
           <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">Roadmap To The Moon</p>
           <p className="text-sm md:text-base mb-4">
             Here’s our commitment in 2021 and beyond. We are an ambitious team with an ambitious goal.
