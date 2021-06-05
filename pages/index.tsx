@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/header';
 import Roadmap from '../components/roadmap';
 import HowToBuy from '../components/how-to-buy';
+import Test from '../components/test';
 
 export default function App() {
   return (
