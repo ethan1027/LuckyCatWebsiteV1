@@ -1,5 +1,4 @@
-export default function HeaderTab() {
-  return (
+const HeaderTab = () => (
     <div x-show="open" className="absolute right-0 w-full md:max-w-screen-sm md:w-screen mt-2 origin-top-right">
       <div className="px-2 pt-2 pb-4 bg-white rounded-md shadow-lg dark-mode:bg-gray-700">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -36,4 +35,5 @@ export default function HeaderTab() {
       </div>
     </div>
   )
-}
+
+export default HeaderTab
