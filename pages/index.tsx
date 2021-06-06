@@ -1,9 +1,9 @@
 import 'semantic-ui-css/semantic.min.css'
 
-import Roadmap from '../components/roadmap/roadmap';
+import Roadmap from '../components/roadmap';
 import HowToBuy from '../components/how-to-buy';
 import React from 'react';
-import Heroes from '../components/heroes/heroes';
+import Heroes from '../components/heroes';
 import Tokenomics from '../components/tokenomics';
 import Stats from '../components/stats';
 import Team from '../components/team';
