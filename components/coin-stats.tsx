@@ -1,34 +1,36 @@
 import { Icon, Image, Statistic } from 'semantic-ui-react'
 
 const CoinStats = () => (
-  <Statistic.Group>
-    <Statistic>
-      <Statistic.Value>22</Statistic.Value>
-      <Statistic.Label>Saves</Statistic.Label>
-    </Statistic>
-    <Statistic>
-      <Statistic.Value text>
-        Three
-        <br />
-        Thousand
-      </Statistic.Value>
-      <Statistic.Label>Signups</Statistic.Label>
-    </Statistic>
-    <Statistic>
-      <Statistic.Value>
-        <Icon name='plane' />5
-      </Statistic.Value>
-      <Statistic.Label>Flights</Statistic.Label>
-    </Statistic>
+  <div className="container mx-auto">
+    <Statistic.Group>
+      <Statistic>
+        <Statistic.Value>22</Statistic.Value>
+        <Statistic.Label>Saves</Statistic.Label>
+      </Statistic>
+      <Statistic>
+        <Statistic.Value text>
+          Three
+          <br />
+          Thousand
+        </Statistic.Value>
+        <Statistic.Label>Signups</Statistic.Label>
+      </Statistic>
+      <Statistic>
+        <Statistic.Value>
+          <Icon name='plane' />5
+        </Statistic.Value>
+        <Statistic.Label>Flights</Statistic.Label>
+      </Statistic>
 
-    <Statistic>
-      <Statistic.Value>
-        <Image src='/images/avatar/small/joe.jpg' inline circular />
-        42
-      </Statistic.Value>
-      <Statistic.Label>Team Members</Statistic.Label>
-    </Statistic>
-  </Statistic.Group>
+      <Statistic>
+        <Statistic.Value>
+          <Image src='/images/avatar/small/joe.jpg' inline circular />
+          42
+        </Statistic.Value>
+        <Statistic.Label>Team Members</Statistic.Label>
+      </Statistic>
+    </Statistic.Group>
+  </div>
 )
 
 export default CoinStats
