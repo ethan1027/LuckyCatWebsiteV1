@@ -3,8 +3,8 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'Why HappyCat', href: '#' },
-  { name: 'Features', href: '#' },
+  { name: 'Why LuckyCat', href: '#' },
+  { name: 'Tokenomics', href: '#' },
   { name: 'Roadmap', href: '#' },
   { name: 'Meet the team', href: '#' },
 ]
