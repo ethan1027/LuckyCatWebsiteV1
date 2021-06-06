@@ -28,8 +28,8 @@ export default function HowToBuy() {
 
   
 
-  <div className="mt-10 mx-14">
-    <div className ="md:flex" >
+  <div className="mt-10 ">
+    <div className ="md:flex md:mx-10" >
       <div className="m-5 p-5 bg-yellow-100 rounded-3xl shadow-lg hover:shadow-2xl md:w-full">
         <div className='p-2 text-3xl font-bold'>How to buy $LCAT</div>
             <div className="p-2">
