@@ -24,6 +24,9 @@ module.exports = {
       serif: ['Merriweather', 'serif'],
       nuni: ['Nunito']
     },
+    scale: {
+      '25': '.25',
+    },
     extend: {
       spacing: {
         '128': '32rem',
@@ -34,5 +37,7 @@ module.exports = {
       }
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }
