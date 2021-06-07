@@ -1,17 +1,17 @@
 const people = [
   {
-    name: 'Nhut Cao',
+    name: 'Roy Taylor',
     role: 'Co-Founder, CEO',
     imageUrl:
-      'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/176734370_2589851341310175_4210595591149118229_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=Zfc0PqBxW7MAX92UbNk&_nc_ht=scontent-dfw5-2.xx&oh=d5df064f5719fcf19f5e88363ffa2d02&oe=60E35806',
+      'https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/135833265_10158468958804022_8877518867958436590_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=GOLayPwPDSIAX-yOwqW&_nc_ht=scontent-dfw5-1.xx&oh=743a7ee7825f97dbe9ce1782f63eba56&oe=60E3494B',
     twitterUrl: '#',
     linkedinUrl: '#',
   },
   {
-    name: 'Roy Taylor',
+    name: 'Nhut Cao',
     role: 'Co-Founder, CMO',
     imageUrl:
-      'https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/135833265_10158468958804022_8877518867958436590_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=GOLayPwPDSIAX-yOwqW&_nc_ht=scontent-dfw5-1.xx&oh=743a7ee7825f97dbe9ce1782f63eba56&oe=60E3494B',
+      'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/176734370_2589851341310175_4210595591149118229_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=Zfc0PqBxW7MAX92UbNk&_nc_ht=scontent-dfw5-2.xx&oh=d5df064f5719fcf19f5e88363ffa2d02&oe=60E35806',
     twitterUrl: '#',
     linkedinUrl: '#',
   },

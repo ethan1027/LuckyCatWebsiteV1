@@ -35,7 +35,7 @@ export default function Heroes() {
                   >
                     <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                       <div className="flex items-center justify-between w-full md:w-auto">
-                        <a href="#">
+                        <a>
                           <span className="sr-only">Workflow</span>
                           <img
                             className="h-8 w-auto sm:h-10"
@@ -52,7 +52,7 @@ export default function Heroes() {
                     </div>
                     <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                       {navigation.map((item) => (
-                        <button key={item.name} onClick={item.onClick} className="font-medium text-lg text-gray-500 hover:text-gray-900">
+                        <button key={item.name} onClick={item.onClick} className="font-medium text-lg text-gray-500 outline-white hover:text-gray-900">
                           {item.name}
                         </button>
                       ))}
@@ -119,10 +119,10 @@ export default function Heroes() {
                 fugiat veniam occaecat fugiat aliqua.
               </p>
               <div className="gap-4 mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
+                <div className="bg-yellow-400 rounded-2xl shadow-xl">
                   <button
                     onClick={() => document.getElementById('user-buy').scrollIntoView({ behavior: 'smooth' })}
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-lg font-medium rounded-2xl shadow-xl bg-yellow-400  transform hover:scale-110 hover:shadow-2xl transition duration-500 ease-in-out font-bold  md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-lg font-medium rounded-2xl shadow-xl bg-yellow-400 transform hover:scale-110 hover:shadow-2xl transition duration-500 ease-in-out font-bold  md:py-4 md:text-lg md:px-10"
                   >
                     Buy Now
                   </button>

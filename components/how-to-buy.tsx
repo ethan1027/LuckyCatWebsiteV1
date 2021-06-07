@@ -3,9 +3,9 @@ export default function HowToBuy(props) {
   return (
   <div className="mt-10 " id="user-buy">
     <div className ="md:flex md:mx-10" >
-      <div className="m-5 p-5 bg-white-400 rounded-3xl md:w-full shadow-2xl transition duration-500 ease-in-out hover:shadow-yellow transform hover:-translate-y-2 hover:scale-110  ">
+      <div className="m-5 p-5 bg-white-400 rounded-3xl md:w-full shadow-2xl transition duration-500 ease-in-out hover:shadow-yellow transform hover:-translate-y-2 hover:scale-105">
         <div className='p-2 text-3xl font-bold'>How to buy $LCAT</div>
-            <div className="p-2 text-2xl text-justify">
+            <div className="p-2 text-xl text-justify">
               <div className="mb-4">1. Download the app, Trust Wallet. 💸</div>
               <div className="mb-4">2. Purchase BSC using TrustWallet.</div>
               <div className="mb-4">3. </div>
