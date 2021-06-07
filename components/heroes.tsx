@@ -118,18 +118,18 @@ export default function Heroes() {
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
                 fugiat veniam occaecat fugiat aliqua.
               </p>
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+              <div className="gap-4 mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <button
                     onClick={() => document.getElementById('user-buy').scrollIntoView({ behavior: 'smooth' })}
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-lg font-medium rounded-md text-white bg-yellow-400 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-lg font-medium rounded-2xl shadow-xl bg-yellow-400  transform hover:scale-110 hover:shadow-2xl transition duration-500 ease-in-out font-bold  md:py-4 md:text-lg md:px-10"
                   >
                     Buy Now
                   </button>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <button
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-lg text-gray-500 font-medium rounded-md bg-yellow-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-lg text-gray-500 font-medium rounded-2xl bg-white border-solid border-yellow-100 shadow-yellow transform hover:scale-110 hover:shadow-white hover:text-yellow-300 transition duration-500 ease-in-out font-bold md:py-4 md:text-lg md:px-10"
                   >
                     Join Discord Community
                   </button>
