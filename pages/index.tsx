@@ -10,7 +10,7 @@ import Team from '../components/team';
 
 const App = () => {
   return (
-    <div className="text-gray-700 scale-25">
+    <div className="text-gray-700">
       <Heroes/>
       <Stats/>
       <Tokenomics/>
