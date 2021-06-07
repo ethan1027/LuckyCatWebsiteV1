@@ -2,14 +2,15 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
-const navigation = [
-  { name: 'Why LuckyCat', href: '#' },
-  { name: 'Tokenomics', href: '#' },
-  { name: 'Roadmap', href: '#' },
-  { name: 'Meet the team', href: '#' },
-]
+
 
 export default function Heroes() {
+  const navigation = [
+    { name: 'Why LuckyCat', onClick: () => { } },
+    { name: 'Tokenomics', onClick: () => document.getElementById('user-tokenomics').scrollIntoView({ behavior: 'smooth' }) },
+    { name: 'Roadmap', onClick: () => document.getElementById('user-roadmap').scrollIntoView({ behavior: 'smooth' }) },
+    { name: 'Meet the team', onClick: () => document.getElementById('user-team').scrollIntoView({ behavior: 'smooth' }) },
+  ]
   return (
     <div className="relative bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
@@ -34,7 +35,7 @@ export default function Heroes() {
                   >
                     <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                       <div className="flex items-center justify-between w-full md:w-auto">
-                        <a href="#">
+                        <a>
                           <span className="sr-only">Workflow</span>
                           <img
                             className="h-8 w-auto sm:h-10"
@@ -51,9 +52,9 @@ export default function Heroes() {
                     </div>
                     <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                       {navigation.map((item) => (
-                        <a key={item.name} href={item.href} className="font-medium text-base text-gray-500 hover:text-gray-900">
+                        <button key={item.name} onClick={item.onClick} className="font-medium text-lg text-gray-500 outline-white hover:text-gray-900">
                           {item.name}
-                        </a>
+                        </button>
                       ))}
                     </div>
                   </nav>
@@ -94,8 +95,7 @@ export default function Heroes() {
                         {navigation.map((item) => (
                           <a
                             key={item.name}
-                            href={item.href}
-                            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                            className="block px-3 py-2 rounded-md text-lg font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                           >
                             {item.name}
                           </a>
@@ -114,26 +114,25 @@ export default function Heroes() {
                 <span className="block xl:inline">It is time to get lucky</span>{' '}
                 <span className="block text-yellow-400 xl:inline">with LuckyCat</span>
               </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              <p className="mt-3 text-lg text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-lg lg:mx-0">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
                 fugiat veniam occaecat fugiat aliqua.
               </p>
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
-                  <a
-                    href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-400 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+              <div className="gap-4 mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                <div className="bg-yellow-400 rounded-2xl shadow-xl">
+                  <button
+                    onClick={() => document.getElementById('user-buy').scrollIntoView({ behavior: 'smooth' })}
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-lg font-medium rounded-2xl shadow-xl bg-yellow-400 transform hover:scale-110 hover:shadow-2xl transition duration-500 ease-in-out font-bold  md:py-4 md:text-lg md:px-10"
                   >
                     Buy Now
-                  </a>
+                  </button>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
-                  <a
-                    href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base text-gray-500 font-medium rounded-md bg-yellow-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
+                  <button
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-lg text-gray-500 font-medium rounded-2xl bg-white border-solid border-yellow-100 shadow-yellow transform hover:scale-110 hover:shadow-white hover:text-yellow-300 transition duration-500 ease-in-out font-bold md:py-4 md:text-lg md:px-10"
                   >
                     Join Discord Community
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>
