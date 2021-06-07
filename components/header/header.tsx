@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import Dropdown from './dropdown';
 import styled from 'styled-components'; 
-import Roadmap from '../components/roadmap';
 
 
 export default function Header() {
