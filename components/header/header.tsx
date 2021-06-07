@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import Dropdown from './dropdown';
 import styled from 'styled-components'; 
+import Roadmap from '../components/roadmap';
+
 
 export default function Header() {
   const [openNav, setOpenNav] = useState(false);
@@ -22,7 +24,7 @@ export default function Header() {
             </button>
           </div>
           <nav className="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
-            <HeaderButton href="#">What's LuckyCat</HeaderButton>
+            <HeaderButton href="#roadmap">What's LuckyCat</HeaderButton>
             <HeaderButton href="#">Why LuckyCat</HeaderButton>
             <HeaderButton href="#">Roadmap</HeaderButton>
             <HeaderButton href="#">Contact</HeaderButton>
