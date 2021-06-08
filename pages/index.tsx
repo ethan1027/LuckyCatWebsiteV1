@@ -7,10 +7,11 @@ import Heroes from '../components/heroes';
 import Tokenomics from '../components/tokenomics';
 import Stats from '../components/stats';
 import Team from '../components/team';
-
+import Banner from '../components/banner';
 const App = () => {
   return (
     <div className="text-gray-700">
+      <Banner/>
       <Heroes/>
       <Stats/>
       <Tokenomics/>
