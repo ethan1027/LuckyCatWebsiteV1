@@ -115,8 +115,8 @@ export default function Heroes() {
                 <span className="block text-yellow-400 xl:inline">with LuckyCat</span>
               </h1>
               <p className="mt-3 text-lg text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-lg lg:mx-0">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat fugiat aliqua.
+                Miss your last moonshot? Moon over the wrong dog(s) that went upside down to earth? Our Famous Luckycat is here to rescue its owners.
+                Born in the same country with Shiba Inu (Doge), LuckyCat is super famous in Japan and China for bringing luck, wealth, and prosperity to its owners.
               </p>
               <div className="gap-4 mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="bg-yellow-400 rounded-2xl shadow-xl">

@@ -2,20 +2,22 @@ import { GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons
 
 const features = [
   {
-    name: 'Competitive rates',
-    description: 'Consequuntur omnis dicta cumque, inventore atque ab dolores aspernatur tempora ab doloremque.',
+    name: 'Total Supply',
+    description: '200,000,000,000',
     icon: GlobeAltIcon,
   },
   {
-    name: 'No hidden fees',
+    name: '9% transaction fee',
     description:
-      'Corporis quisquam nostrum nulla veniam recusandae temporibus aperiam officia incidunt at distinctio ratione.',
+      `5% added to liquidity,
+      3% distributed to holders,
+      1% to the lottery wallet`,
     icon: ScaleIcon,
   },
   {
-    name: 'Instant transfers',
+    name: 'Profit from holding',
     description:
-      'Omnis, illo delectus? Libero, possimus nulla nemo tenetur adipisci repellat dolore eligendi velit doloribus mollitia.',
+      'We reward holders with a 3% transaction tax which puts $LCAT directly into your wallet every time someone buys or sells.',
     icon: LightningBoltIcon,
   },
   {

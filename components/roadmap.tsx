@@ -12,7 +12,7 @@ const Roadmap = () => (
         </div>
         <div className="order-1 bg-white rounded-lg shadow w-5/12 px-6 py-4 shadow-2xl transition duration-500 ease-in-out hover:shadow-yellow transform hover:-translate-y-2 hover:scale-105">
           <h3 className="mb-3 font-bold text-2xl">Q2 2021</h3>
-          <p className="text-xl font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">😊 $HAPPY Launch ✅</p>
+          <p className="text-xl font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">😊 $LCAT Launch ✅</p>
         </div>
       </div>
 
