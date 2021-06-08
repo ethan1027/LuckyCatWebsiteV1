@@ -22,17 +22,35 @@ a {
 }
 
 
-.iframe-container{
+.iframe-container {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
   height: 0;
 }
 
-.iframe-container iframe{
+.iframe-container iframe {
   position: absolute;
   top:0;
   left:0;
   width:100%;
   height:100%;
+}
+
+.banner {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+    line-height: 30px;
+    text-align: center;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: hidden;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.banner_svg {
+  width: 25px;
+  margin-right: 10px;
 }

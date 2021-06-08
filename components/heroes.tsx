@@ -129,7 +129,7 @@ export default function Heroes() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <button
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-lg text-gray-500 font-medium rounded-2xl bg-white border-solid border-yellow-100 shadow-yellow transform hover:scale-110 hover:shadow-white hover:text-yellow-300 transition duration-500 ease-in-out font-bold md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-lg text-gray-500 font-medium rounded-2xl bg-white border-solid border-yellow-100 shadow-yellow transform hover:scale-110 hover:shadow-diamond hover:text-yellow-300 hover:border-white transition duration-500 ease-in-out font-bold md:py-4 md:text-lg md:px-10"
                   >
                     Join Discord Community
                   </button>
