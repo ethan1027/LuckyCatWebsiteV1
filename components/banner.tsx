@@ -12,7 +12,7 @@ export default function Banner(){
                     <b className="font-bold font-nuni text-gray-500">Official Contract Address</b>
                  </div>
                 <div>
-                    <a className="ml-4 mr-4 px-2 py-1 bg-yellow-400 bg-opacity-50 font-nuni text-gray-400 rounded-lg text-white" target="_blank" href="https://bscscan.com/token/0x70DBd21721cb7D6225ddce8F2D082d7afD26F086">0x70DBd21721cb7D6225ddce8F2D082d7afD26F086</a>
+                    <a className="ml-4 mr-4 px-2 py-1 bg-yellow-400 bg-opacity-50 font-nuni text-gray-400 rounded-lg text-indigo-900" target="_blank" href="https://bscscan.com/token/0x70DBd21721cb7D6225ddce8F2D082d7afD26F086">0x70DBd21721cb7D6225ddce8F2D082d7afD26F086</a>
                 </div>
             </div>
         </div>
