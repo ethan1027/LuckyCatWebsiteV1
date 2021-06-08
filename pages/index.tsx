@@ -7,6 +7,7 @@ import Heroes from '../components/heroes';
 import Tokenomics from '../components/tokenomics';
 import Stats from '../components/stats';
 import Team from '../components/team';
+
 import Banner from '../components/banner';
 import Medias from '../components/footer-media' ;
 const App = () => {

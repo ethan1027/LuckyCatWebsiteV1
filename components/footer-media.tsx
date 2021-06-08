@@ -17,11 +17,6 @@ export default function Medias(){
             <a className="mx-3 py-2 text-yellow-400 hover:text-yellow-300" href="#"><FaRedditAlien/></a>
             <a className="mx-3 py-2 text-yellow-400 hover:text-yellow-300" href="#"><FaDiscord/></a>
             <a className="mx-3 py-2 text-yellow-400 hover:text-yellow-300" href="#"><FaTwitch/></a>
-            
         </div>
-        
     )
-
-    
-
 }
