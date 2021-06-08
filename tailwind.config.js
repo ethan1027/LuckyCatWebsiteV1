@@ -47,6 +47,7 @@ module.exports = {
         bluexl: '0 6px 16px 0 rgba(19, 51, 81, 0.39)',
         yellow: '0 4px 14px 0 rgba(255,197,75,1)',
         white: '0 4px 14px 0 rgba(255,255,255,0.39)',
+        diamond: '0 4px 23px 0 rgba(238, 238, 238, 1)',
       },
     }
 

@@ -6,7 +6,7 @@ export default function Banner(){
                 <path d="M8.2516 36.1738C11.2337 38.344 14.7579 39.6466 18.4342 39.9376C22.1104 40.2286 25.7955 39.4966 29.0817 37.8225C32.3679 36.1484 35.1271 33.5976 37.0541 30.4522C38.981 27.3068 40.0006 23.6895 40 20.0005C40 19.5399 39.9786 19.0846 39.9478 18.6317C32.644 29.5283 19.1583 34.6224 8.25146 36.1742" fill="white"></path>
             </svg>
             <b>Official Contract Address</b>
-            <a className="ml-4 px-4 bg-white bg-opacity-60 text-gray-400 rounded-lg text-white" target="_blank" href="https://bscscan.com/token/0xCed0CE92F4bdC3c2201E255FAF12f05cf8206dA8">0x70DBd21721cb7D6225ddce8F2D082d7afD26F086</a>
+            <a className="ml-4 px-4 bg-white bg-opacity-20 text-gray-400 rounded-lg text-white" target="_blank" href="https://bscscan.com/token/0xCed0CE92F4bdC3c2201E255FAF12f05cf8206dA8">0x70DBd21721cb7D6225ddce8F2D082d7afD26F086</a>
 
         </div>
     )
