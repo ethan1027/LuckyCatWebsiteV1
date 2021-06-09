@@ -30,6 +30,14 @@ const people = [
       'https://media-exp1.licdn.com/dms/image/C4E03AQGpHzO6hAtyZA/profile-displayphoto-shrink_400_400/0/1602003723140?e=1628726400&v=beta&t=HwEQUliKXrvMt4g90lRvlveRNRlBdvec_bAjYuzLxvo',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/quan-ethan-t-8273b9b4/',
+  },
+   {
+    name: 'Anh Ho',
+    role: 'Frontend Developer',
+    imageUrl:
+      'https://i.ibb.co/sQ0zQrv/Processed-with-VSCO-with-b1-preset.jpg" alt="Processed-with-VSCO-with-b1-preset',
+    twitterUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/quan-ethan-t-8273b9b4/',
   }
   // More people...
 ]
